@@ -1,0 +1,37 @@
+SUPPORTED_PLATFORMS = {
+    "instagram": {
+        "enabled": True,
+        "success_rate": 93,
+        "report_types": ["profile", "post", "story", "comment"]
+    },
+    "tiktok": {
+        "enabled": True, 
+        "success_rate": 91,
+        "report_types": ["profile", "video", "comment", "livestream"]
+    },
+    "facebook": {
+        "enabled": True,
+        "success_rate": 89,
+        "report_types": ["profile", "page", "post", "group"]
+    },
+    "twitter": {
+        "enabled": True,
+        "success_rate": 87,
+        "report_types": ["profile", "tweet", "direct_message"]
+    },
+    "youtube": {
+        "enabled": True,
+        "success_rate": 85,
+        "report_types": ["channel", "video", "comment", "livestream"]
+    },
+    "reddit": {
+        "enabled": True,
+        "success_rate": 88,
+        "report_types": ["user", "post", "comment", "subreddit"]
+    },
+    "linkedin": {
+        "enabled": True,
+        "success_rate": 84,
+        "report_types": ["profile", "post", "company_page"]
+    }
+}
